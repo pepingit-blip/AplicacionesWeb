@@ -1,29 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        body {
-            font-family: Arial,;
-            background: linear-gradient(135deg, #cccedbff, #2575fc);
-            height: 100vh;
-            margin: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        .contenedor1 {
-            background-color: white;
-            padding: 30px 40px;
-            border-radius: 15px;
-            width: 100%;
-            max-width: 400px;
-            text-align: center;
-            display: flex;
-        }
-    </style>
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
     <div class="Contenedor1">

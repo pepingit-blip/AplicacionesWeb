@@ -1,0 +1,27 @@
+       body {
+            font-family: Arial,;
+            background: linear-gradient(135deg, #cccedbff, #2575fc);
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .Contenedor1 {
+            background-color: white;
+            padding: 30px 40px;
+            border-radius: 15px;
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+        }
+        button {
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            background-color: #2575fc;
+            color: white;
+            font-size: 16px;
+        }
