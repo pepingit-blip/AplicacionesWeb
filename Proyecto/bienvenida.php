@@ -10,10 +10,13 @@ exit;
 <head>
 <meta charset="UTF-8">
 <title>Bienvenida</title>
+<link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-<h1>Bienvenido, <?php echo $_SESSION['usuario']; ?> 🎉</h1>
-<p>Has iniciado sesión correctamente.</p>
-<p><a href="logout.php">Cerrar sesión</a></p>
+    <div class="Bienvenida">
+    <h1>Bienvenido, <?php echo $_SESSION['usuario']; ?> 🎉</h1>
+    <p>Has iniciado sesión correctamente.</p>
+    <p><a href="logout.php">Cerrar sesión</a></p>
+    </div>
 </body>
 </html>

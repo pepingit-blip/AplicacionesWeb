@@ -25,3 +25,17 @@
             color: white;
             font-size: 16px;
         }
+        .Bienvenida a {
+            display: inline-block;
+            padding: 10px 25px;
+            background: #0044ff;
+            color: white;
+            border-radius: 25px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .Bienvenida a:hover {
+            background: #002fcc;
+            transform: scale(1.05);
+        }
