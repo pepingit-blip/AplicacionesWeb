@@ -25,17 +25,18 @@
             color: white;
             font-size: 16px;
         }
-        .Bienvenida a {
+        .Bienvenida {
             display: inline-block;
             padding: 10px 25px;
             background: #0044ff;
             color: white;
-            border-radius: 25px;
+            border-radius: 0px;
             text-decoration: none;
-            transition: all 0.3s ease;
         }
 
-        .Bienvenida a:hover {
+        .Bienvenida:hover {
             background: #002fcc;
-            transform: scale(1.05);
+        }
+        h2 {
+            margin-bottom: 30px;
         }
