@@ -12,12 +12,20 @@ fclose($file);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro_correcto</title>
-    <link rel="stylesheet" href="estilos.css">
+    <style> body { 
+            font-family: Arial,;
+            background: linear-gradient(135deg, #ffffffff, #4ff12eff);
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+            </style>
 </head>
 <body>
     <h2>Usuario registrado correctamente</h2>
-    <p style="margin-top: 20px;">
-    <a href='login.php'>Iniciar sesión</a>
-</p>
+    <a style="margin-bottom: 30px;" class="final" href='login.php'>Iniciar sesión</a>
 </body>
 </html>
