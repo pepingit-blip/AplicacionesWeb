@@ -44,3 +44,4 @@ paco:$2y$10$zxy.AbW9t/HmNrZ7elvTDOaTVxuVKjzgRs5M9z0SgpYmZsEB1cZT2
 pacofiestas:$2y$10$boM.YILlfdARgbp/ss7cu.ue1HWXekSwmKhAmUX05xpSUYBxcw2B6
 pacofiestas:$2y$10$qMX08aZj32WoNsRLK1YokOmlGaTqcxgIFfvpg2hfttukKILK7ffMm
 papa:$2y$10$VCyIJa.gt8fstR.M7G/VPuJPr67rH/0As//5OrDHTHm3LIwfRB61G
+raton:$2y$10$47xdxUfRJLI9zy2Ohgz9n.MocbjRlUMk3vi61nM566BhD03NjhdiC
