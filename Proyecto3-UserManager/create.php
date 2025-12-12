@@ -35,5 +35,7 @@ if ($_POST){
             <button class="btn" type="submit">Guardar</button>
             </form>
         </div>
+
+    <script src="js/validacion.js"></script>
     </body>
 </html>

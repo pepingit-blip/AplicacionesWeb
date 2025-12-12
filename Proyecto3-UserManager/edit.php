@@ -38,5 +38,7 @@ exit;
             <button class="btn" type="submit">Actualizar</button>
             </form>
         </div>
+
+    <script src="js/validacion.js"></script>
     </body>
 </html>

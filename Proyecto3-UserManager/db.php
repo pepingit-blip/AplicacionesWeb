@@ -1,8 +1,8 @@
 <?php
 $host="localhost";
 $dbname="usermanager";
-$user="root";
-$pass="";
+$user="pepin";
+$pass="pepin";
 
 try {
 $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8mb4", $user, $pass);
