@@ -1,19 +1,4 @@
-<?php 
-include"db.php";
 
-if ($_POST){
-    $nombre=$_POST["nombre"];
-    $email=$_POST["email"];
-    $edad=$_POST["edad"];
-    $rol=$_POST["rol"];
-
-    $stmt = $pdo->prepare("INSERT INTO usuarios (nombre,eail,edad,rol)VALUES(?,?,?,?)");
-    $stmt->execute([$nombre,$email,$edad,$rol]);
-
-    header("Location:list.php");
-    exit;
-}
-?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -24,7 +9,7 @@ if ($_POST){
     <body>
         <div class="contenedor-forma">
             <h1>Crear Usuario</h1>
-            <form method="POST">
+            <form method="POST" action="procesar_create.php">
             <input type="text" name="nombre" placeholder="Nombre" required>
             <input type="email" name="email" placeholder="Email" required>
             <input type="number" name="edad" placeholder="Edad" required>
