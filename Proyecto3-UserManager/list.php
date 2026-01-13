@@ -1,13 +1,18 @@
+<?php
+    include "db.php";
+    $stmt = $pdo->query("SELECT * FROM usuarios");
+    $usuarios = $stmt->fetchAll(PDO::FETCH_ASSOC);
+?>
 
 <!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
         <title>Listado de Usuarios</title>
-        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/styless.css">
     </head>
     <body>
-        <div class="Contenedor">
+        <div class="Contenedor-lista">
             <h1>Usuarios</h1>
             <a class="btn" href="create.php">+Crear Usuarios</a>
 

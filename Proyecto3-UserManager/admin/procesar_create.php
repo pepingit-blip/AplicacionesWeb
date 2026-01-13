@@ -7,7 +7,7 @@ if ($_POST){
     $edad=$_POST["edad"];
     $rol=$_POST["rol"];
 try{    
-    $stmt = $pdo->prepare("INSERT INTO usuarios (nombre,eail,edad,rol)VALUES(?,?,?,?)");
+    $stmt = $pdo->prepare("INSERT INTO usuarios (nombre,email,edad,rol)VALUES(?,?,?,?)");
     $stmt->execute([$nombre,$email,$edad,$rol]);
 } catch (PDOException $e) {
     die("Error de conexion: " . $e->getMessage());

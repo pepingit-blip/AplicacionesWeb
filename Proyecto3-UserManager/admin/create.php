@@ -4,9 +4,10 @@
     <head>
         <meta charset="UTF-8">
         <title>Crear Usuario</title>
-        <link rel="stylesheet" href="css/Styles.css">
+        <link rel="stylesheet" href="css/styless.css">
     </head>
     <body>
+        <div class="Fondo-create">
         <div class="contenedor-forma">
             <h1>Crear Usuario</h1>
             <form method="POST" action="procesar_create.php">
@@ -19,6 +20,9 @@
             </select>
             <button class="btn" type="submit">Guardar</button>
             </form>
+            <div class="Volver-listado">
+            <a class="btn" href="list.php">Volver al Listado</a>
+        </div>
         </div>
 
     <script src="js/validacion.js"></script>
