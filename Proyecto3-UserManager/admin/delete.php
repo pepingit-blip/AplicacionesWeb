@@ -1,10 +1,11 @@
 <?php
-include"db.php";
+include "includes/db.php";
 
 $id = $_GET["id"];
-$stmt = $pdo->prepare("DELETE FROM usuarios WHERE id=?");
-$stmt->execute([$id]);
+$stmt = $conn->prepare("DELETE FROM usuarios WHERE id=?");
+$stmt->bind_param("i", $id);
+$stmt->execute();
 
-header("Location:list.php");
+header("Location: list.php");
 exit;
 ?>

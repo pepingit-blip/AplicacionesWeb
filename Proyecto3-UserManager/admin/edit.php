@@ -9,6 +9,7 @@
         <div class="form-container">
             <h1>Editar Usuario</h1>
             <form method="POST" action="procesar_edit.php">
+            <input type="hidden" name="id" value="<?= $usuario['id'] ?>">
             <input type="text" name="nombre" value="<?= $usuario['nombre'] ?>" required>
             <input type="email" name="email" value="<?= $usuario['email'] ?>" required>
             <input type="number" name="edad" value="<?= $usuario['edad'] ?>" required>

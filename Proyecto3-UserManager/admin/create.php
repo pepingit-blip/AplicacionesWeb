@@ -14,6 +14,7 @@
             <input type="text" name="nombre" placeholder="Nombre" required>
             <input type="email" name="email" placeholder="Email" required>
             <input type="number" name="edad" placeholder="Edad" required>
+            <input type="password" name="password" placeholder="Contraseña" required>
             <select name="rol">
                 <option value="user">Usuario</option>
                 <option value="admin">Administrador</option>

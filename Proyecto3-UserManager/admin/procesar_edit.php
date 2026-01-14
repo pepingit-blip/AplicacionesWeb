@@ -1,19 +1,17 @@
 <?php
-include "db.php";
-$id = $_GET["id"];
-$stmt = $pdo->prepare("SELECT * FROM usuarios WHERE id=?");
-$stmt->execute([$id]);
-$usuario = $stmt->fetch();
-if ($_POST) {
+session_start();
+include "includes/db.php";
+
+$id = $_POST["id"];
 $nombre = $_POST["nombre"];
 $email = $_POST["email"];
 $edad = $_POST["edad"];
 $rol = $_POST["rol"];
 
-$update = $pdo->prepare("UPDATE usuarios SET nombre=?,email=?,rol=? WHERE id=?");
-$update->execute([$nombre,$email,$edad,$rol,$id]);
+$stmt = $conn->prepare("UPDATE usuarios SET nombre=?, email=?, edad=?, rol=? WHERE id=?");
+$stmt->bind_param("ssisi", $nombre, $email, $edad, $rol, $id);
+$stmt->execute();
 
-header("Location:list.php");
+header("Location: list.php");
 exit;
-}
 ?>
