@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Login - UserManager</title>
-    <link rel="stylesheet" href="styless.css">
+    <link rel="stylesheet" href="../css/styless.css">
     <script src="js/validacion.js" defer></script>
 </head>
 <body>
@@ -21,7 +21,7 @@
                     <div class="error-msg" id="email-error"></div>
                 </div>
                 
-                <div class="form-group">
+                <div class="login-formulario">
                     <label>Contraseña:</label>
                     <input type="password" name="password" id="loginPassword" required>
                     <div class="error-msg" id="password-error"></div>

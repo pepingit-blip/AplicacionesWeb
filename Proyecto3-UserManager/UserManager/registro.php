@@ -13,7 +13,7 @@ if (estaAutenticado()) {
 <head>
 <meta charset="UTF-8">
 <title>Registro - UserManager</title>
-<link rel="stylesheet" href="styless.css">
+<link rel="stylesheet" href="../css/styless.css">
 </head>
 <body>
     <div class="fondo-patron">

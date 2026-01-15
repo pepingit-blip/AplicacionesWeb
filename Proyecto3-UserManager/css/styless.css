@@ -32,3 +32,76 @@
     position: relative;
     font-family: Arial, Helvetica, sans-serif
 }
+
+.inicio {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 40px;
+    text-align: center;
+    background: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.fondo-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f5f5f5;
+}
+
+.login {
+    width: 100%;
+    max-width: 400px;
+    padding: 40px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.fondo-patron {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f5f5f5;
+}
+
+.Registro {
+    width: 100%;
+    max-width: 400px;
+    padding: 40px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.Index-contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 35vh;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.Contenedor-lista {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+
+.Bienvenido-contenedor {
+    max-width: 600px;
+    margin: 80px auto;
+    padding: 40px;
+    text-align: center;
+    border-radius: 15px;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+}

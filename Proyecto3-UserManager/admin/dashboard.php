@@ -6,7 +6,7 @@ require_once __DIR__ . '/../includes/db.php';
     <head>
         <meta charset="UTF-8">
         <title>UserManager</title>
-        <link rel="stylesheet" href="css/styless.css">
+        <link rel="stylesheet" href="../css/styless.css">
     </head>
     <body>
         <div class="Index-contenedor">

@@ -15,7 +15,7 @@ $esAdmin = ($_SESSION['usuario_rol'] === 'admin');
     <head>
         <meta charset="UTF-8">
         <title><?php echo $esAdmin ? 'Listado de Usuarios' : 'Mi Información'; ?></title>
-        <link rel="stylesheet" href="css/styless.css">
+        <link rel="stylesheet" href="../css/styless.css">
     </head>
     <body>
         <div class="Contenedor-lista">
@@ -48,9 +48,10 @@ $esAdmin = ($_SESSION['usuario_rol'] === 'admin');
                     </tr>
                     <?php endforeach; ?>
                 </table>
+                <a class="btn" href="../index.php">← Volver al Inicio</a>
                 
             <?php else: ?>
-                <!-- VISTA USUARIO NORMAL -->
+               
                 <h1>Mi Información</h1>
                 
                 <?php
