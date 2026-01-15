@@ -1,13 +1,3 @@
-<?php
-session_start();
-require_once __DIR__ . '/../includes/auth.php';
-require_once __DIR__ . '/../includes/db.php';
-
-if (estaAutenticado()) {
-    header("Location: dashboard.php");
-    exit();
-}
-?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -20,7 +10,7 @@ if (estaAutenticado()) {
         <div class="Registro">
             <h1>Registro de usuario</h1>
             
-            <form action="procesar_registro.php" method="post">
+            <form id="registerForm" action="procesar_registro.php" method="post" novalidate>
                 <input type="text" name="nombre" placeholder="Nombre" required>
                 <input type="email" name="email" placeholder="Email" required>
                 <input type="password" name="password" placeholder="Contraseña" required>
@@ -33,4 +23,5 @@ if (estaAutenticado()) {
         </div>
     </div>
 </body>
+<script src="../js/validation.js" defer></script>
 </html>

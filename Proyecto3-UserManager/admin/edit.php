@@ -21,6 +21,6 @@
             </form>
         </div>
 
-    <script src="js/validacion.js"></script>
+    <script src="../js/validation.js"></script>
     </body>
 </html>

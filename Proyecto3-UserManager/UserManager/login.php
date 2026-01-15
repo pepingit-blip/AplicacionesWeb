@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <title>Login - UserManager</title>
     <link rel="stylesheet" href="../css/styless.css">
-    <script src="js/validacion.js" defer></script>
 </head>
 <body>
     <div class="fondo-login">
