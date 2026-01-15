@@ -1,6 +1,6 @@
 <?php
 session_start();
-include "includes/db.php";
+require_once __DIR__ . '/../includes/db.php';
 
 $id = $_POST["id"];
 $nombre = $_POST["nombre"];

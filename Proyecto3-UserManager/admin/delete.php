@@ -1,5 +1,5 @@
 <?php
-include "includes/db.php";
+require_once __DIR__ . '/../includes/db.php';
 
 $id = $_GET["id"];
 $stmt = $conn->prepare("DELETE FROM usuarios WHERE id=?");
