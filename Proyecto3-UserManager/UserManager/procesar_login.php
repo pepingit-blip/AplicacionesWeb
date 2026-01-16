@@ -11,13 +11,12 @@ $stmt->execute();
 $stmt->store_result();
 
 if ($stmt->num_rows === 0) {
-    // Usuario no existe
+   
     echo "<h1>Usuario no encontrado ❌</h1>";
     echo "<p><a href='registro.php'>Registrarse</a></p>";
     exit;
 }
 
-// Usuario existe, obtener datos
 $stmt->bind_result($id, $nombre, $hash, $rol);
 $stmt->fetch();
 

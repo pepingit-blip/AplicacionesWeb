@@ -21,7 +21,6 @@ $esAdmin = ($_SESSION['usuario_rol'] === 'admin');
         <div class="Contenedor-lista">
             
             <?php if ($esAdmin): ?>
-                <!-- VISTA ADMIN -->
                 <h1>Usuarios (Admin)</h1>
                 <a class="btn" href="create.php">+ Crear Usuario</a>
 
